@@ -17,7 +17,7 @@ for(i=0; i<5; i++) {
 }
 //get icons for every image
 for(i=0;i<5; i++){
-    document.getElementById("img" +(i+1).src ="http://openweathermap.org/img/wn/") + data.list[i].weather[0].icon + ".png";
+    document.getElementById("img" +(i+1)).src = "http://openweathermap.org/img/wn/") + data.list[i].weather[0].icon + ".png";
 }
 })
 
@@ -37,6 +37,10 @@ function CheckDay(day){
     else {
         return day + d.getDay();
     }
+}
+
+for (i=0; i<5;i++){
+    document.getElementById("day" + (i+1)).innerHTML = weekday[CheckDay(i)];
 }
 
 
