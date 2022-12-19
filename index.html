@@ -8,39 +8,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="info">
+     
+        <h1 id="header">WEATHER DASHBOARD</h1>
+        <p id="input-container">Search for a city <input type="text" id="city-input"></p>
+        <button>Search</button>
+        <h2 id="city-name">New York</h2>
+      
+      <div class="input">
+        <input type="text" class="input-value">
+        <input type="submit" value="search">
+      </div>
+        
         <div class="date-container">
-          <div class="time" id="time">
-            11:30 <span id="am-pm">AM</span>
-          </div>
           <div class="date" id="date">
-            Monday, December 19
+            <p>Monday, December 19</p>
           </div>
-
-          <div class="others" id="weather-items">
+          <div class="values" id="weather-items">
+            <div class="weather-item">
+              <div>Temperature</div>
+              <div>36&#176; F</div>
+            </div>
             <div class="weather-item">
               <div>Humidity</div>
               <div>50%</div>
             </div>
             <div class="weather-item">
-              <div>Pressure</div>
-              <div>30.22 inHg</div>
-            </div>
-            <div class="weather-item">
               <div>Wind Speed</div>
               <div>12 mph</div>
             </div>
-            <div class="weather-item">
-              <div>Visibility</div>
-              <div>10 mi</div>
-            </div>
-
           </div>
         </div>
 
         <div class="place-container">
-          <div class="time-zone" id="time-zone"></div>
+          <div class="time-zone" id="time-zone">New York</div>
           <div class="country" id="country">NY</div>
+        </div>
+      </div>
+
         </div>
       </div>
       </div>
