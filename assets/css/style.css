@@ -4,7 +4,6 @@
     font-family:sans-serif;
 }
 
-
 .header {
     background: ghostwhite;
     color: darkslateblue;
@@ -18,12 +17,17 @@ body {
     color: black;
 }
 
-#city-input, #city-name, #input-container,button{
+#city-input, #city-name, #input-container, .button{
     margin: 3px;
     padding:5px;
     text-align:center;
     font-size:20px;
     font-weight:bold;
+}
+
+.button{
+    text-align: center;
+    justify-content: space-between;  
 }
 
 .weather-container{
@@ -34,7 +38,7 @@ body {
     transform: translate(-50%, -50%);
     height: 300px;
     width: 1300px;
-    border: 5px solid rgba(97, 95, 95, 0.829);    
+    border: 5px solid ghostwhite;    
     border-radius: 10px;
 }
 
@@ -46,7 +50,7 @@ body {
     transform: translate(-50%, -50%);
     height: 240px;
     width: 1200px;    
-    border: 5px solid rgb(31, 82, 82);    
+    border: 5px solid rgb(49, 71, 124);    
     border-radius: 10px;
 }
 
@@ -56,7 +60,7 @@ body {
     height: 200px;
     width: 190px;
     margin: 20px;
-    border: 5px solid rgb(48, 47, 47);
+    border: 5px solid darkslateblue;
     border-radius: 10px;
 }
 
