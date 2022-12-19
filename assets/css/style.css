@@ -18,15 +18,15 @@ body {
     color: black;
 }
 
-#cityInput, #cityName, #inputContainer,button{
+#city-input, #city-name, #input-container,button{
     margin: 3px;
-padding:5px;
-text-align:center;
-font-size:20px;
-font-weight:bold;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
 }
 
-#weatherContainer{
+.weather-container{
     position: absolute;
     top: 70%;
     left: 50%;
@@ -38,7 +38,7 @@ font-weight:bold;
     border-radius: 10px;
 }
 
-#iconsContainer{
+.icons-container{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,20 +65,19 @@ font-weight:bold;
     width: 100%;
 }
 
-.imgClass{
+.img{
     height: 140px;
     width: 100%;
 }
 
 .weather{
     margin: 5px;
-   /*  background-color: rgb(106, 215, 255); */
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
 }
 
-.minValues{
+.min-values{
     text-align: center;
     display: inline-block;
     border-radius: 5px;
@@ -90,7 +89,7 @@ font-weight:bold;
 }
 
 
-.maxValues{
+.max-values{
     text-align: center;
     display: inline-block;
     border-radius: 5px;

@@ -6,78 +6,50 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+
+  <body onload="DefaultScreen()">
     <div class="container">
         <h1 class="header">WEATHER DASHBOARD</h1>
         <p id="input-container">Search for a city <input type="text" id="city-input"></p>
         <button>Search</button>
         <h2 id="city-name">New York</h2>
       
-  <div class="weather-container">
-    <div class="icons-container">
-      <div class="icons">
-        <p class="weather" id="day1"></p>
-        <div class="image"><img src"" class="img" id="img1" alt=""></div>
-        <p class="min-values" id="day1min">Loading...</p>
-        <p class="max-values" id="day1max">Loading...</p>
+    <div class="weather-container">
+      <div class="icons-container">
+        <div class="icons">
+          <p class="weather" id="day1"></p>
+          <div class="image"><img src"dots.png" class="img" id="img1"></div>
+          <p class="min-values" id="day1Min">Loading...</p>
+          <p class="max-values" id="day1Max">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day2"></p>
+          <div class="image"><img src"dots.png" class="img" id="img2"></div>
+          <p class="min-values" id="day2Min">Loading...</p>
+          <p class="max-values" id="day2Max">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day3"></p>
+          <div class="image"><img src"dots.png" class="img" id="img3"></div>
+          <p class="min-values" id="day3Min">Loading...</p>
+          <p class="max-values" id="day3Max">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day4"></p>
+          <div class="image"><img src"dots.png" class="img" id="img4"></div>
+          <p class="min-values" id="day4Min">Loading...</p>
+          <p class="max-values" id="day4Max">Loading...</p>
+        </div>
+        <div class="icons">
+          <p class="weather" id="day5"></p>
+          <div class="image"><img src"dots.png" class="img" id="img5"></div>
+          <p class="min-values" id="day5Min">Loading...</p>
+          <p class="max-values" id="day5Max">Loading...</p>
+        </div>
       </div>
-      <div class="icons">
-        <p class="weather" id="day2"></p>
-        <div class="image"><img src"" class="img" id="img2" alt=""></div>
-        <p class="min-values" id="day2min">Loading...</p>
-        <p class="max-values" id="day2max">Loading...</p>
-      </div>
-      <div class="icons">
-        <p class="weather" id="day3"></p>
-        <div class="image"><img src"" class="img" id="img3" alt=""></div>
-        <p class="min-values" id="day3min">Loading...</p>
-        <p class="max-values" id="day3max">Loading...</p>
-      </div>
-      <div class="icons">
-        <p class="weather" id="day4"></p>
-        <div class="image"><img src"" class="img" id="img4" alt=""></div>
-        <p class="min-values" id="day4min">Loading...</p>
-        <p class="max-values" id="day4max">Loading...</p>
-      </div>
-      <div class="icons">
-        <p class="weather" id="day5"></p>
-        <div class="image"><img src"" class="img" id="img5" alt=""></div>
-        <p class="min-values" id="day5min">Loading...</p>
-        <p class="max-values" id="day5max">Loading...</p>
-      </div>
-
-    </div>
   </div>
-        
-        <div class="date-container">
-          <div class="date" id="date">
-            <p>Monday, December 19</p>
-          </div>
-          <div class="values" id="weather-items">
-            <div class="weather-item">
-              <div>Temperature</div>
-              <div>36&#176; F</div>
-            </div>
-            <div class="weather-item">
-              <div>Humidity</div>
-              <div>50%</div>
-            </div>
-            <div class="weather-item">
-              <div>Wind Speed</div>
-              <div>12 mph</div>
-            </div>
-          </div>
-        </div>
 
-        <div class="place-container">
-          <div class="time-zone" id="time-zone">New York</div>
-          <div class="country" id="country">NY</div>
-        </div>
-      </div>
+  <script src="./assets/js/script.js"></script>
 
-        </div>
-      </div>
-      </div>
-    </div>
-    <script src="./assets/js/script.js"></script>
   </body>
+  </html>
