@@ -17,7 +17,7 @@ body {
     color: black;
 }
 
-#city-input, #city-name, #input-container, .button{
+#cityInput, #cityName, #inputContainer, .button{
     margin: 3px;
     padding:5px;
     text-align:center;
@@ -30,7 +30,7 @@ body {
     justify-content: space-between;  
 }
 
-.weather-container{
+.weatherContainer{
     position: absolute;
     top: 70%;
     left: 50%;
@@ -42,7 +42,7 @@ body {
     border-radius: 10px;
 }
 
-.icons-container{
+.iconsContainer{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,7 +81,7 @@ body {
     font-weight: bold;
 }
 
-.min-values{
+.minValues{
     text-align: center;
     display: inline-block;
     border-radius: 5px;
@@ -93,7 +93,7 @@ body {
 }
 
 
-.max-values{
+.maxValues{
     text-align: center;
     display: inline-block;
     border-radius: 5px;

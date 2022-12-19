@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,43 +8,42 @@
   </head>
 
   <body onload="DefaultScreen()">
-    <div class="container">
-        <h1 class="header">WEATHER DASHBOARD</h1>
-        <p id="input-container">Search for a city <input type="text" id="city-input"></p>
+        <h1 class="header" id="Para1">WEATHER DASHBOARD</h1>
+        <p id="inputContainer">Search for a city <input type="text" id="cityInput"></p>
         <button class="button" type="button" onclick="GetInfo()">Search</button> 
-        <h2 id="city-name">New York</h2>
+        <h2 id="cityName">New York</h2>
       
-    <div class="weather-container">
-      <div class="icons-container">
+    <div class="weatherContainer">
+      <div class="iconsContainer">
         <div class="icons">
           <p class="weather" id="day1"></p>
           <div class="image"><img src"dots.png" class="img" id="img1"></div>
-          <p class="min-values" id="day1Min">Loading...</p>
-          <p class="max-values" id="day1Max">Loading...</p>
+          <p class="min-Values" id="day1Min">Loading...</p>
+          <p class="max-Values" id="day1Max">Loading...</p>
         </div>
         <div class="icons">
           <p class="weather" id="day2"></p>
           <div class="image"><img src"dots.png" class="img" id="img2"></div>
-          <p class="min-values" id="day2Min">Loading...</p>
-          <p class="max-values" id="day2Max">Loading...</p>
+          <p class="minValues" id="day2Min">Loading...</p>
+          <p class="maxValues" id="day2Max">Loading...</p>
         </div>
         <div class="icons">
           <p class="weather" id="day3"></p>
           <div class="image"><img src"dots.png" class="img" id="img3"></div>
-          <p class="min-values" id="day3Min">Loading...</p>
-          <p class="max-values" id="day3Max">Loading...</p>
+          <p class="minValues" id="day3Min">Loading...</p>
+          <p class="maxValues" id="day3Max">Loading...</p>
         </div>
         <div class="icons">
           <p class="weather" id="day4"></p>
           <div class="image"><img src"dots.png" class="img" id="img4"></div>
-          <p class="min-values" id="day4Min">Loading...</p>
-          <p class="max-values" id="day4Max">Loading...</p>
+          <p class="minValues" id="day4Min">Loading...</p>
+          <p class="maxValues" id="day4Max">Loading...</p>
         </div>
         <div class="icons">
           <p class="weather" id="day5"></p>
           <div class="image"><img src"dots.png" class="img" id="img5"></div>
-          <p class="min-values" id="day5Min">Loading...</p>
-          <p class="max-values" id="day5Max">Loading...</p>
+          <p class="minValues" id="day5Min">Loading...</p>
+          <p class="maxValues" id="day5Max">Loading...</p>
         </div>
       </div>
   </div>
