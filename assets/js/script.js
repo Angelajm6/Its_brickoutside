@@ -2,7 +2,6 @@ function GetInfo(){
     const newname = document.getElementById("city-input");
     const cityName = document.getElementById("city-name");
     cityName.innerHTML = "--" + newname.value + "--"
-}
 
 //link for the weather API
 fetch("https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appid=6ab94a05776e0c97a5014f2b05bcf440") 
@@ -21,4 +20,24 @@ for(i=0;i<5; i++){
     document.getElementById("img" +(i+1).src ="http://openweathermap.org/img/wn/") + data.list[i].weather[0].icon + ".png";
 }
 })
+
+
+//In case there's an error, display an error message
+.catch(err => alert("something went wrong!"))
+}
+
+//Display the different Days
+const d = new Date();
+const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+function CheckDay(day){
+    if(day +d.getDay() > 6){
+        return day + d.getDay() -7;
+    }
+    else {
+        return day + d.getDay();
+    }
+}
+
+
 
