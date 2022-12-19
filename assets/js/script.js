@@ -16,5 +16,9 @@ for(i=0; i<5; i++) {
 for(i=0; i<5; i++) {
     document.getElementById("day" + (i+1) + "Max").innerHTML = "Max:" + number(data.list[i].main.temp_max -274.84).toFixed(1)+"&#176"
 }
+//get icons for every image
+for(i=0;i<5; i++){
+    document.getElementById("img" +(i+1).src ="http://openweathermap.org/img/wn/") + data.list[i].weather[0].icon + ".png";
+}
 })
 
