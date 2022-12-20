@@ -18,17 +18,24 @@ body {
 }
 
 #cityInput, #cityName, #inputContainer, .button{
-    margin: 3px;
-    padding:5px;
+    margin: 20px;
+    padding:10px;
     text-align:center;
-    font-size:20px;
+    font-size:25px;
     font-weight:bold;
+    border-radius:15px;
+}
+
+    
+.button:hover{
+        transform:scale(1.2);
 }
 
 .button{
-    text-align: center;
-    justify-content: space-between;  
+    align-items:center;
+    margin-left:725px;
 }
+
 
 .weatherContainer{
     position: absolute;
