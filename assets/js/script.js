@@ -35,7 +35,7 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
 }
 
 function DefaultScreen(){
-    document.getElementById("cityInput").defaultValue = "London";
+    document.getElementById("cityInput").defaultValue = "New York";
     GetInfo();
 }
 
@@ -56,4 +56,17 @@ function CheckDay(day){
 
     for(i = 0; i<5; i++){
         document.getElementById("day" + (i+1)).innerHTML = weekday[CheckDay(i)];
+    }
+
+
+    const input = document.getElementById(".inputContainer");
+    const city = document.getElementById(".city");
+    const button = document.getElementById(".button")
+
+    console.log(input);
+    console.log(city);
+
+    if (input && city) {
+        localStorage.setItem(input, city);
+        location.reload();
     }
