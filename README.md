@@ -18,6 +18,10 @@ Pull requests are more than welcome. Feel free to add creativity or any idea tha
 The following image shows the web application's appearance and functionality:
 
 
+<img width="1711" alt="Screen Shot 2022-12-19 at 10 57 44 PM" src="https://user-images.githubusercontent.com/109991922/208580599-1d1d72ad-5317-42e6-b889-4438cb0ce407.png">
+
+
+
 
 URL of my GitHub repo: https://github.com/Angelajm6/Its_brickoutside
 
